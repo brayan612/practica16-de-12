@@ -1,0 +1,136 @@
+body{
+	font-family:sans-serif,arial;
+	font-size:20px;
+	background:#A099A0;
+}
+
+.contenedor{
+	width:1100px;
+	margin:15px;
+}
+
+header{
+	background:white ;
+}
+
+
+header nav ul{
+	width:100%;
+	overflow:hidden;
+}
+
+header nav ul li{
+	float:left;
+	list-style:none;
+}
+
+header nav ul li a{
+	text-decoration:none;
+	display:inline-block;
+	padding:15px 50px;
+	color:#004091 ;
+}
+
+header nav ul li a:hover{
+	background:#004091 ;
+	color:#F50606 ;
+}
+
+.main{
+	width:700px;
+	background:white;
+	float:left;
+}
+
+.main .imagen{
+	width:100%;
+}
+
+.main .imagen img{
+	width:100%;
+}
+
+.main .post{
+	padding:40px;
+	width: 200px 1000;
+}
+.main .post h2{
+	color:darkblue;
+	margin-bottom:20px;
+}
+
+.main .post p{
+	color :black;
+	line-height:27px;
+	margin-bottom:20px;
+}
+
+aside{
+	width:300px;
+	padding:50px;
+	background:darkblue;
+	color:white;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+aside .widget h2{
+	border-bottom: 1px solid white;
+	color: white;
+	margin-bottom: 10px;
+}
+
+aside .widget ul{
+	list-style: none;
+}
+
+aside .widget ul li{
+	border-bottom: 1px solid white;
+	padding: 10px 0px;
+}
+
+aside .widget ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+aside .widget ul li a:hover{
+	background: burlywood;
+	color: white;
+}
+
+aside .widget p{
+	line-height: 27px;
+	text-align: justify;
+}
+
+footer{
+	width: 600px;
+	padding: 40px;
+	background: darkblue;
+	color: white;
+	overflow: ;
+}
+
+h1{
+	width: 10px 0px;
+	padding: 16px 400px;
+	background: white;
+	color: darkblue;
+}
